@@ -58,23 +58,5 @@
   transform: translateY(-50%);
   position: absolute;
 }
-/* .weather-tomorrow {
-  width: 100%;
-  height: 25%;
-  background: linear-gradient(170deg, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
-  border-radius: 30px;
-  display: flex;
-  justify-content: space-around;
-}
-.weather-daily {
-  width: 100%;
-  height: 30%;
-  background: linear-gradient(170deg, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
-  border-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 3% 0;
-} */
 
 
