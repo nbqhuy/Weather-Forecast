@@ -1,0 +1,80 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  transition:0.5s ease-in;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px
+}
+.input-container {
+  display: flex;
+}
+#location-input {
+  margin-right: 20px;
+  width: 180px;
+  text-indent: 10px;
+}
+.weather-body {
+  width: 30%;
+  height: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(201deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  border-radius: 50px;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: center;
+}
+.weather-overview {
+  height: 25%;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.location {
+  font-size: 3rem;
+}
+.temp-overview {
+  font-size: 3rem;
+}
+.feel-overview {
+  font-size: 1.2rem;
+}
+.date-overview {
+  font-size: 1.2rem;
+}
+.overview-img {
+  height: 200%;
+  right: -10%;
+  top:80%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+/* .weather-tomorrow {
+  width: 100%;
+  height: 25%;
+  background: linear-gradient(170deg, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.weather-daily {
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(170deg, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3% 0;
+} */
+
+
